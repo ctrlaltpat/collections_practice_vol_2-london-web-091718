@@ -23,7 +23,7 @@ end
 def count_elements(arr)
   rtn_arr =[]
   arr.each do |a|
-    # rtn_arr << {:count => arr.count(a), a}
+    rtn_arr << {:count => arr.count(a), {a}}
   end
   arr
 end
